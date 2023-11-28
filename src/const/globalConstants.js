@@ -1,0 +1,17 @@
+require("dotenv").config();
+
+module.exports = {
+  AWS_DOMAIN_IMAGES: process.env.AWS_DOMAIN_IMAGES,
+  AWS_BUCKET_NAME: process.env.AWS_BUCKET_NAME,
+  AWS_BUCKET_REGION: process.env.AWS_BUCKET_REGION,
+  AWS_BUCKET_ACCESS_KEY: process.env.AWS_BUCKET_ACCESS_KEY,
+  AWS_BUCKET_SECRET_ACCESS_KEY: process.env.AWS_BUCKET_SECRET_ACCESS_KEY,
+  SHOPIFY_SHOP_NAME: process.env.SHOPIFY_SHOP_NAME,
+  SHOPIFY_API_KEY: process.env.SHOPIFY_API_KEY,
+  SHOPIFY_PASSWORD: process.env.SHOPIFY_PASSWORD,
+  DB_USER_NAME: process.env.DB_USER_NAME,
+  DB_USER_PASSWORD: process.env.DB_USER_PASSWORD,
+  DB_NAME: process.env.DB_NAME,
+  DB_HOST: process.env.DB_HOST,
+  DB_DIALECT: process.env.DB_DIALECT,
+};
